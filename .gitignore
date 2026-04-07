@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.egg
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+.env/
+venv.bak/
+env.bak/
+
+# Файлы с токенами и секретами
+*.env
+.env.*
+secrets.py
+config.py
+BOT_TOKEN
+
+# Временные файлы бота
+input_*.jpg
+output_*.jpg
+in_*.jpg
+out_*.jpg
+*.temp.jpg
+*.temp.png
+/tmp/
+temp/
+
+# База данных настроек (но можно и оставить, решать вам)
+user_settings.json
+*.json.backup
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.project
+.classpath
+.settings/
+
+# Логи
+*.log
+logs/
+log.txt
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*.tmp
+
+# Файлы отладки
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Файлы деплоя (Render, Railway и др.)
+.railway/
+.render/
+*.pid
